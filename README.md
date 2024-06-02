@@ -12,9 +12,9 @@ dies, as if by overcrowding.
 becomes a live cell, as if by reproduction.
 
 This Java recreation of Conwayslife uses/features:
-> Jframe: AWT and mainly Swing components for rendering graphics,handling user input and UI for the game. 
-> Threading: For smooth and responsive game updates and animations.
-> 5 Functions: EDIT (lets you edit the board), RANDOM (fill the board with random dead/alive cells), SAVE (Lets you save the board in a file), LOAD (Lets you load the board from a file), RUN (runs the game according to the "rules of life") 
+* Jframe: AWT and mainly Swing components for rendering graphics,handling user input and UI for the game. 
+* Threading: For smooth and responsive game updates and animations.
+* 5 Functions: EDIT (lets you edit the board), RANDOM (fill the board with random dead/alive cells), SAVE (Lets you save the board in a file), LOAD (Lets you load the board from a file), RUN (runs the game according to the "rules of life") 
 
 
 
