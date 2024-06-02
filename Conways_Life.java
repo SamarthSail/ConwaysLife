@@ -111,7 +111,7 @@ public class Conways_Life extends JFrame implements Runnable, MouseListener, Act
                 // count the neighbours of cell x,y
                 int liveneighbours=0;
                 for (int xx=-1;xx<=1;xx++) {
-                    for (int yy=-1;yy<=1;yy++) {
+                    for (int yy=-1;yy<=1;yy++) { //We wrap around to check for live neighbours in order to code our rules. Ex: we can't check for xx = -1 since that is not a valid x position, thus -1 --> 39.
                         if (xx!=0 || yy!=0) {
                             int xPos=x+xx; // xPos represents the x position of our current cell we are checking
                             if (xPos<0)
