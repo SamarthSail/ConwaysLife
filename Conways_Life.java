@@ -113,12 +113,12 @@ public class Conways_Life extends JFrame implements Runnable, MouseListener, Act
                 for (int xx=-1;xx<=1;xx++) {
                     for (int yy=-1;yy<=1;yy++) {
                         if (xx!=0 || yy!=0) {
-                            int xPos=x+xx;
+                            int xPos=x+xx; // xPos represents the x position of our current cell we are checking
                             if (xPos<0)
                                 xPos=39;
                             else if (xPos>39)
                                 xPos=0;
-                            int yPos=y+yy;
+                            int yPos=y+yy; // yPos represents the y position of our current cell we are checking
                             if (yPos<0)
                                 yPos=39;
                             else if (yPos>39)
