@@ -1,20 +1,40 @@
-# ConwaysLife
-A famous ‘cellular automata’ 0-player game from 1970
+# Conway's Game of Life
 
-Conway’s Life: Rules
-1. Any live cell with fewer than two live neighbours dies,
-as if caused by under-population.
-2. Any live cell with two or three live neighbours lives on
-to the next generation.
-3. Any live cell with more than three live neighbours
-dies, as if by overcrowding.
-4. Any dead cell with exactly three live neighbours
-becomes a live cell, as if by reproduction.
+## Overview
+This project implements Conway's Game of Life, a cellular automaton devised by mathematician John Conway. The simulation runs in a graphical user interface (GUI) created using Java Swing. Users can edit the initial state, run the simulation, randomize the grid, and save/load the game state.
 
-This Java recreation of Conwayslife uses/features:
-* Jframe: AWT and mainly Swing components for rendering graphics,handling user input and UI for the game. 
-* Threading: For smooth and responsive game updates and animations.
-* 5 Functions: EDIT (lets you edit the board), RANDOM (fill the board with random dead/alive cells), SAVE (Lets you save the board in a file), LOAD (Lets you load the board from a file), RUN (runs the game according to the "rules of life") 
+## Features
+- Jframe for GUI development
+- Threading for smoothness of application
+
+## Requirements
+- Java Development Kit (JDK) 8 or higher
+- An IDE or text editor for Java development (e.g., IntelliJ IDEA, Eclipse, or NetBeans)
+
+## How to Run
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/conways-game-of-life.git
+   cd conways-game-of-life
+**or download the java file**
+2. **Compile the Code: Ensure you have the JDK installed and set up. Compile the Java file using:** 
+```javac Conways_Life.java```
+3. **Run the Application: Execute the compiled class:**
+``java Conways_Life``
+
+## Controls
+- Edit: Toggle between editing mode (to modify cell states) and simulation mode.
+- Random: Randomly populate the grid with live cells (25% chance).
+- Run: Start/stop the simulation.
+- Save: Save the current state to a file.
+- Load: Load a game state from a file.
+
+## File Format
+The saved game state is stored as a binary string in a text file:
+  - Each cell is represented as 1 (alive) or 0 (dead).
+  - The format consists of 40x40 grid
+
+
 
 
 
