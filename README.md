@@ -4,7 +4,7 @@
 This project implements Conway's Game of Life, a cellular automaton devised by mathematician John Conway. The simulation runs in a graphical user interface (GUI) created using Java Swing. Users can edit the initial state, run the simulation, randomize the grid, and save/load the game state.
 
 ## Features
-- Jframe for GUI development
+- Java Swing for GUI development
 - Threading for smoothness of application
 
 ## Requirements
