@@ -12,11 +12,11 @@ This project implements Conway's Game of Life, a cellular automaton devised by m
 - An IDE or text editor for Java development (e.g., IntelliJ IDEA, Eclipse, or NetBeans)
 
 ## How to Run
-1. **Clone the Repository**:
-   ```bash
+1. **Clone the Repository or download the java file**:
+   ```
    git clone https://github.com/yourusername/conways-game-of-life.git
    cd conways-game-of-life
-**or download the java file**
+   ```
 2. **Compile the Code: Ensure you have the JDK installed and set up. Compile the Java file using:** 
 ```javac Conways_Life.java```
 3. **Run the Application: Execute the compiled class:**
