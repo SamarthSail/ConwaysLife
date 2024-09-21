@@ -5,7 +5,7 @@ This project implements Conway's Game of Life, a cellular automaton devised by m
 
 ## Design
 - Java Swing for GUI development
-- Double buffering for smoothness of application
+- Threading and Double buffering for smoothness of application
 
 ## Requirements
 - Java Development Kit (JDK) 8 or higher
